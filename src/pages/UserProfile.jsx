@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import Avatar from '../images/avatar15.jpg'
 import {FaEdit} from 'react-icons/fa'
 import {FaCheck} from 'react-icons/fa' 
 import { UserContext } from '../context/userContext'
