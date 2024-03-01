@@ -23,7 +23,7 @@ const Login = () => {
     e.preventDefault();
     setError('')
     try{
-      const response = await axios.post(`/users/login`, userData)
+      const response = await axios.post(`https://mern-blog-api-eta.vercel.app/api/users/login`, userData)
       const user = await response.data;
       setCurrentUser(user)
       navigate('/')
